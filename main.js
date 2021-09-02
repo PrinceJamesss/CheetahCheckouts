@@ -2,6 +2,8 @@
 const Discord = require('discord.js');
 //Call DotENV
 require('dotenv').config();
+//Call Chalk (Colorful Console)
+const chalk = require('chalk');
 
 //Required in Discord.js V13, Intents
 const client = new Discord.Client({

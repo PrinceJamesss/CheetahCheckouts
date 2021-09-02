@@ -1,3 +1,6 @@
+//Call Chalk For Colorful Console
+const chalk = require('chalk');
+
 module.exports = () =>{
-    console.log('%cCheetah Checkouts Toolbox is Online',"color:red")
+    console.log(chalk.green("Cheetah Checkouts Toolbox is Online"))
 }
