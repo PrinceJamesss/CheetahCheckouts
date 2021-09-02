@@ -1,3 +1,3 @@
 module.exports = () =>{
-    console.log('Cheetah Checkouts Toolbox is Online')
+    console.log('%cCheetah Checkouts Toolbox is Online',"color:green")
 }
